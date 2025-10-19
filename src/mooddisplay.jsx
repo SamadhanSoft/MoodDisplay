@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import "./mooddisplay.css";
 
 function MoodDisplay({title}) {
-    const [mood, setMood] = useState("Happy 😊");
+    const [mood, setMood] = useState("Happy 😊 day");
     
     //chnage document title whenever mood changes
     useEffect(() => {
