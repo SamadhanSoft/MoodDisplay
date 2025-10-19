@@ -8,8 +8,8 @@ function MoodDisplay({title}) {
     //chnage document title whenever mood changes
     useEffect(() => {
         document.title = `My Mood is ${mood}`
-    },[mood])
-    document.title = `You are ${mood}`
+    },[])
+   // document.title = `You are ${mood}`
 
   return (
     <div className="container">
